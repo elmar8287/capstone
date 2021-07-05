@@ -1,65 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Capstone Project - Tech World</title>
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-
-<body>
-    <header>
-        <div class="menu-bar">
-            <div class="menu-bar-contacts">
-                <i class="fab fa-facebook-f"></i>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="menu-bar-links">
-                <a href="./index.html" class="logo"><img src="./image/images-head/logo.png" alt="MyLogo" />
-                </a>
-                <nav class="nav-btn">
-                    <div onclick='openNav()'><img src="./image/images-head/union.png" alt="navbarimage" /></div>
-                </nav>
-                <ul class="nav-links">
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="#">Program</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Sponsor</a></li>
-                    <li><a href="#">News</a></li>
-                </ul>
-            </div>
+    <title>AI in Medicine - World Tech</title>
+  </head>
+  <body id ='body'>
+    <div class="wrapper">
+      <header>
+        <div class="line-contact">
+          <ul class="line-contact-ul">
+            <li>English</li>
+            <li>My Page</li>
+            <li>Logout</li>
+          </ul>
         </div>
-
-        <div class="header-info">
-            <div class="header-topic">
-                <h1>Hello Tech Word</h1>
-                <p>AI in medicine</p>
-            </div>
-            <div class="header-topic-disc">
-                <p>Using AI in medicine will bring a lot of impovement in pacient HCP relationship and also in drugs
-                    development</p>
-            </div>
-            <div class="header-schdule">
-                <h2>2021.07.30(FRI)~31(SAT)</h2>
-                <p>Saray, Baku Central Hall, Azerbaijan</p>
-            </div>
+        <div class="toolbar">
+          <a href="./index.html" class="logo"
+          ><img src="./images/logo.PNG" alt="Logo" />
+          </a>
+          <nav class="nav-btn">
+           <div onclick='openNav()'><img src="./image/images-head/union.png" alt="navbarimage" /></div>
+          </nav>
+          
+          
+          <ul class="nav-links">
+             <li><a href="./about.html">About</a></li>
+             <li><a href="#">Program</a></li>
+             <li><a href="#">Join</a></li>
+             <li><a href="#">Sponsor</a></li>
+             <li><a href="#">News</a></li>
+             <li id="compaign"><a href="#">Compaign</a></li>
+           </ul>
+           
         </div>
-
-    </header>
-
-
-
-
-    <script src="./app.js"></script>
-</body>
-
+        
+    <span class="modalgit">
+      <img src="./image/images-main/popupgithub.png" alt="popupgit" class="git">
+    </span>
+    <span class="modallive">
+      <img src="./image/images-main/livesees.PNG" alt="popupgit" class="Live see">
+    </span>
+ <!-- Add JS file -->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick='closeNav()'>&times;</a>
+      <div class="overlay-content">
+       <a class='port' href="./about.html" onclick='closeNav()'>About</a>
+       <a class='abt' href="#" onclick="closeNav()">Program</a>
+       <a class='cont' href="#" onclick="closeNav()">Join</a>
+       <a class='abt' href="#" onclick="closeNav()">Sponsor</a>
+       <a class='cont' href="#" onclick="closeNav()">News</a>
+      </div>
+      <div class="footer-line2"></div>
+    </div>
+    <!--MODAL-->
+    <div class="modal" id="myModal" data-close-button="">
+      <div class="modal-content modal-card">
+        <div id="modal-header">
+          <h2 id="modal-title"></h2>
+          <span id="close">×</span>
+        </div>
+        <div class="infos">
+        </div>
+        <div class="section-img">
+          <img src="oo" alt="image1" class="img1">
+        </div>
+        <div class="modal-float2">
+          <p class="modal-desc"></p>
+          <div class="modal-float">
+            <div class="program-btn">
+            </div>
+            <div id="modal-foot">
+              <button type="button" class="btn4 btn">See live
+                <span class="modallive" style="display: block; margin-left: 5px;">
+                  <img src="./image/images-main/livesees.PNG" alt="popupgit" class="Live see" style="width: 25px; height: 25px;">
+                </span>
+              </button>
+              <button type="button" class="btn4 btn">See Source
+                <span class="modalgit" style="display: block; margin-left: 5px;">
+                  <img src="./image/images-main/popupgithub.png" alt="popupgit" class="git">
+                </span>
+              </button>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div id="modal-line"></div>
+  </div>
+    <script src="./app.js">
+    </script>
+  </body>
 </html>
