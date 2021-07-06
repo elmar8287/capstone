@@ -8,13 +8,13 @@
 Screen Shots:
 
 Mobile version
-![Screen Shot](./screen-sht/mobile_version.png)
+![Screen Shot](./screen-sht/mobile_version.PNG)
 
 Mobile menu
-![Screen Shot](./screen-sht/mobile-menu.png)
+![Screen Shot](./screen-sht/mobile-menu.PNG)
 
 Desktop version
-![Screen Shot](./screen-sht/desktop-version.png)
+![Screen Shot](./screen-sht/desktop-version.PNG)
 
 ## Built With
 
