@@ -144,6 +144,15 @@ a {
   font-family: "Lato", sans-serif;
 }
 
+.h2-header-info-about {
+    display: block;
+    line-height: 50px;
+    margin: 550px 0 0 5px;
+    position: absolute;
+    width: 100%;
+    font-family: "Lato", sans-serif;
+  }
+
 .p2-header-info {
   display: block;
   left: 0;
@@ -230,7 +239,7 @@ a {
   overflow-x: hidden;
   transition: 0.5s;
   backdrop-filter: blur(10px);
-  opacity: 95%;
+  opacity: 94%;
 }
 
 .overlay-content {
@@ -276,6 +285,7 @@ a {
   .main-program {
     background-image: url("./images/bg-main-program.PNG");
     height: 600px;
+    z-index: 2;
   }
   
   .main-program h3 {
@@ -338,6 +348,18 @@ a {
     font-family: "Lato", sans-serif;
   }
 
+  .h1-header-info-about {
+    color: #EC5242;
+    display: block;
+    left: 650px;
+    line-height: 50px;
+    margin: 200px 0 0 30px;
+    position: absolute;
+    width: 100%;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+  }
+
   .p-header-info {
     font-family: "Cocogoose", sans-serif;
     color: #EC5242;
@@ -347,6 +369,17 @@ a {
     width: auto;
     font-size: 30px;
     font-family: "Lato", sans-serif;
+  }
+
+  .p-header-info-about {
+    font-family: "Cocogoose", sans-serif;
+    color: #EC5242;
+    display: block;
+    margin: 250px 0 0 30px;
+    position: absolute;
+    width: auto;
+    font-size: 40px;
+    left: 550px;
   }
 
   .h2-header-info {
@@ -383,6 +416,7 @@ a {
     font-family: "Lato", sans-serif;
   }
 
+  
   #topicDisc {
     border-style: solid;
     border-color: white;
@@ -391,6 +425,16 @@ a {
     margin-left:auto;
     margin-right: 0px;
     text-align:left;
+  }
+
+  #topicDiscAbout {
+    border-style: solid;
+    border-color: rgb(206, 79, 79);
+    padding: 10px 10px 10px 10px;
+    border-width: 2px;
+    margin-left:auto;
+    margin-right: 0px;
+    text-align:center;
   }
 
   .logo {
