@@ -97,6 +97,12 @@ a {
   cursor: pointer;
 }
 
+#header-bg {
+  background-image:url("./images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .h1-header-info {
   color: #EC5242;
   display: block;
