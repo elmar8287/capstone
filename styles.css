@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+@font-face {
+  font-family: "Cocogoose";
+  src: url("./fonts/cocogoose-compressed-bold-trial-webfont.woff2") format("woff2");
+}
+
 /* General Rules */
 
 * {
@@ -991,7 +996,7 @@ header {
   display: block;
   left: 0;
   line-height: 50px;
-  margin: 200px 0 0 30px;
+  margin: 180px 0 0 30px;
   position: absolute;
   width: 100%;
   font-weight: 400;
@@ -1001,18 +1006,18 @@ header {
 .p-header-info {
   color: #EC5242;
   display: block;
-  margin: 300px 0 0 30px;
+  margin: 350px 0 0 30px;
   position: absolute;
   width: auto;
   font-size: 30px;
   font-weight: 800;
-  font-family: "Lato", sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 
 .h2-header-info {
   display: block;
   line-height: 50px;
-  margin: 500px 0 0 30px;
+  margin: 550px 0 0 30px;
   position: absolute;
   width: 100%;
   font-family: "Lato", sans-serif;
@@ -1022,7 +1027,7 @@ header {
   display: block;
   left: 0;
   line-height: 50px;
-  margin: 550px 0 0 30px;
+  margin: 580px 0 0 30px;
   position: absolute;
   width: 100%;
   font-size: 20px;
@@ -1030,10 +1035,11 @@ header {
 }
 
 .header-topic-disc {
+  line-height: 0.7;
   display: block;
   left: 0;
   line-height: 50px;
-  margin: 400px 0 0 30px;
+  margin: 450px 0 0 30px;
   position: absolute;
   width: 90%;
   font-size: 15px;
@@ -1041,12 +1047,12 @@ header {
 }
 
 #topicDisc {
+  line-height: 1.2;
   border-style: solid;
-  border-color: white;
+  border-color: black;
   padding: 10px 10px 10px 10px;
-  border-width: 2px;
-  margin-left:auto;
-  margin-right:0px;
+  border-width: 1px;
+  margin: 10px 10px 10px 10px;
   text-align:left;
   font-family: "Lato", sans-serif;
 }
@@ -1064,6 +1070,7 @@ header {
   }
 
   .h1-header-info {
+    font-family: "Cocogoose", sans-serif;
     color: #EC5242;
     display: block;
     left: 0;
@@ -1076,6 +1083,7 @@ header {
   }
 
   .p-header-info {
+    font-family: "Cocogoose", sans-serif;
     color: #EC5242;
     display: block;
     margin: 250px 0 0 30px;
@@ -1086,6 +1094,7 @@ header {
   }
 
   .h2-header-info {
+    font-family: "Cocogoose", sans-serif;
     display: block;
     line-height: 50px;
     margin: 450px 0 0 30px;
@@ -1095,6 +1104,7 @@ header {
   }
 
   .p2-header-info {
+    font-family: "Cocogoose", sans-serif;
     display: block;
     left: 0;
     line-height: 50px;
@@ -1106,6 +1116,7 @@ header {
   }
 
   .header-topic-disc {
+    font-family: "Cocogoose", sans-serif;
     display: block;
     left: 0;
     line-height: 50px;
@@ -1117,6 +1128,7 @@ header {
   }
 
   #topicDisc {
+    font-family: "Cocogoose", sans-serif;s
     border-style: solid;
     border-color: white;
     padding: 10px 10px 10px 10px;
