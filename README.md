@@ -5,7 +5,16 @@
 > The topic of project is Tech World.
 > Using AI in Medicine
 
-![Screen Shot](./)
+Screen Shots:
+
+Mobile version
+![Screen Shot](./screen-sht/mobile_version)
+
+Mobile menu
+![Screen Shot](./screen-sht/mobile-menu)
+
+Desktop version
+![Screen Shot](./screen-sht/desktop-version)
 
 ## Built With
 
