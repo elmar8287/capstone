@@ -979,16 +979,14 @@ main {
   border-radius: 20px;
 }
 
-header {
+#header-bg {
   background-image:url("./images/header-bg.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  
 }
 
 .header-info {
   display: block;
-  height: 400px;
+  height: 650px;
 }
 
 .h1-header-info {
@@ -996,7 +994,7 @@ header {
   display: block;
   left: 0;
   line-height: 50px;
-  margin: 180px 0 0 30px;
+  margin: 180px 0 0 5px;
   position: absolute;
   width: 100%;
   font-weight: 400;
@@ -1006,7 +1004,7 @@ header {
 .p-header-info {
   color: #EC5242;
   display: block;
-  margin: 350px 0 0 30px;
+  margin: 350px 0 0 5px;
   position: absolute;
   width: auto;
   font-size: 30px;
@@ -1017,7 +1015,7 @@ header {
 .h2-header-info {
   display: block;
   line-height: 50px;
-  margin: 550px 0 0 30px;
+  margin: 550px 0 0 5px;
   position: absolute;
   width: 100%;
   font-family: "Lato", sans-serif;
@@ -1027,7 +1025,7 @@ header {
   display: block;
   left: 0;
   line-height: 50px;
-  margin: 580px 0 0 30px;
+  margin: 580px 0 0 5px;
   position: absolute;
   width: 100%;
   font-size: 20px;
@@ -1039,7 +1037,7 @@ header {
   display: block;
   left: 0;
   line-height: 50px;
-  margin: 450px 0 0 30px;
+  margin: 450px 0 0 5px;
   position: absolute;
   width: 90%;
   font-size: 15px;
@@ -1049,10 +1047,10 @@ header {
 #topicDisc {
   line-height: 1.2;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   padding: 10px 10px 10px 10px;
-  border-width: 1px;
-  margin: 10px 10px 10px 10px;
+  border-width: 2px;
+  margin: 10px 10px 10px 5px;
   text-align:left;
   font-family: "Lato", sans-serif;
 }
