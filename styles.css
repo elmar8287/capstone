@@ -97,10 +97,19 @@ a {
   cursor: pointer;
 }
 
-#header-bg {
-  background-image:url("./images/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+.header-info {
+  display: block;
+  height: 650px;  
+  background-color:rgb(233, 233, 233);
+}
+
+.header-info img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.2;
 }
 
 .h1-header-info {
@@ -169,15 +178,18 @@ a {
 }
 
 @media screen and (min-width: 992px) {
-  header {
-    background-image:url("./images/header-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-
   .header-info {
     display: block;
     height: 600px;
+  }
+
+  .header-info img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
   }
 
   .h1-header-info {
