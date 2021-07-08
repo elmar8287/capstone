@@ -44,7 +44,7 @@ a {
 
 .header-info-about h1 {
   font-family: "Cocogoose", sans-serif;
-  color: #EC5242;
+  color: #ec5242;
   line-height: 28px;
   margin: 200px 0 0 0;
   position: absolute;
@@ -273,7 +273,7 @@ a {
 #div1 h1 {
   font-weight: 600;
   font-size: 25px;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 #div2 {
@@ -403,7 +403,7 @@ a {
   z-index: 15;
   top: 0;
   left: 0;
-  background-color: #272A31;
+  background-color: #272a31;
   overflow-x: hidden;
   transition: 0.5s;
   backdrop-filter: blur(10px);
@@ -424,7 +424,7 @@ a {
   text-decoration: none;
   display: block;
   transition: 0.3s;
-  color: #EC5242;
+  color: #ec5242;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
@@ -523,7 +523,7 @@ a {
 }
 
 .h1-header-info {
-  color: #EC5242;
+  color: #ec5242;
   display: block;
   left: 0;
   line-height: 50px;
@@ -535,7 +535,7 @@ a {
 }
 
 .p-header-info {
-  color: #EC5242;
+  color: #ec5242;
   display: block;
   margin: 350px 0 0 5px;
   position: absolute;
@@ -608,12 +608,12 @@ a {
 }
 
 .progam-disc h3 {
-  color: #EC5242;
+  color: #ec5242;
   line-height: 3px;
 }
 
 .progam-disc p {
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 .progam-disc img {
@@ -636,7 +636,7 @@ a {
   z-index: 15;
   top: 0;
   left: 0;
-  background-color: #272A31;
+  background-color: #272a31;
   overflow-x: hidden;
   transition: 0.5s;
   backdrop-filter: blur(10px);
@@ -652,21 +652,21 @@ a {
   margin-left: 2em;
 }
 
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
 .overlay a {
   padding: 8px;
   text-decoration: none;
   display: block;
   transition: 0.3s;
-  color: #EC5242;
+  color: #ec5242;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
   font-family: 'Poppins', sans-serif;
-}
-
-.overlay a:hover,
-.overlay a:focus {
-  color: #f1f1f1;
 }
 
 .overlay .closebtn {
@@ -709,12 +709,12 @@ a {
   }
 
   .progam-disc h3 {
-    color: #EC5242;
+    color: #ec5242;
     line-height: 3px;
   }
 
   .progam-disc p {
-    color: #D3D3D3;
+    color: #d3d3d3;
   }
 
   .header-info {
@@ -737,8 +737,7 @@ a {
   }
 
   .h1-header-info {
-    font-family: "Cocogoose", sans-serif;
-    color: #EC5242;
+    color: #ec5242;
     display: block;
     left: 0;
     line-height: 50px;
@@ -750,8 +749,7 @@ a {
   }
 
   .p-header-info {
-    font-family: "Cocogoose", sans-serif;
-    color: #EC5242;
+    color: #ec5242;
     display: block;
     margin: 250px 0 0 30px;
     position: absolute;
@@ -761,7 +759,6 @@ a {
   }
 
   .h2-header-info {
-    font-family: "Cocogoose", sans-serif;
     display: block;
     line-height: 50px;
     margin: 450px 0 0 30px;
@@ -783,7 +780,6 @@ a {
   }
 
   .p2-header-info-2 {
-    font-family: "Cocogoose", sans-serif;
     display: block;
     left: 0;
     line-height: 50px;
@@ -795,7 +791,6 @@ a {
   }
 
   .header-topic-disc {
-    font-family: "Cocogoose", sans-serif;
     display: block;
     left: 0;
     line-height: 50px;
@@ -840,7 +835,7 @@ a {
     color: red;
   }
 
-  .nav-links>li a {
+  .nav-links > li a {
     margin: 0;
     padding: 10px 12px;
     margin-left: 8px;
@@ -848,12 +843,12 @@ a {
   }
 
   .nav-links li a:hover {
-    color: #EC5242;
+    color: #ec5242;
   }
 
   .line-contact {
     height: 30px;
-    background-color: #272A31;
+    background-color: #272a31;
     display: flex;
   }
 
@@ -863,10 +858,7 @@ a {
     margin: 0;
     display: flex;
     justify-content: space-between;
-    height: 92px;
     align-items: center;
-    padding: 4px 24px 4px 12px;
-    margin: 0;
     width: 100%;
     position: fixed;
     z-index: 2;
@@ -919,7 +911,7 @@ a {
     height: 100%;
   }
 
-  .section-img>img {
+  .section-img > img {
     max-width: 100%;
     height: 100%;
   }
@@ -948,7 +940,7 @@ a {
     height: 496px;
   }
 
-  .card:nth-child(2n)>.section-img {
+  .card:nth-child(2n) > .section-img {
     order: 2;
   }
 
@@ -964,7 +956,7 @@ a {
     height: 496px;
   }
 
-  .card:nth-child(4n)>.section-img {
+  .card:nth-child(4n) > .section-img {
     order: 2;
   }
 
@@ -1234,7 +1226,7 @@ a {
     width: 100%;
   }
 
-  .about-head>.btn4 {
+  .about-head > .btn4 {
     width: 162px;
     padding: 8px;
     margin-top: 12px;
@@ -1242,7 +1234,7 @@ a {
     color: #396df2;
   }
 
-  .card:nth-child(1n)>.btn4 {
+  .card:nth-child(1n) > .btn4 {
     background-color: #4053fc;
     color: #fff;
     padding: 12px;
@@ -1462,7 +1454,7 @@ a {
     width: 50%;
   }
 
-  #modal-foot>.btn4:first-child {
+  #modal-foot > .btn4:first-child {
     width: 136px;
     height: 48px;
     text-align: left;
@@ -1473,7 +1465,7 @@ a {
     margin-top: 0;
   }
 
-  #modal-foot>.btn4:last-child {
+  #modal-foot > .btn4:last-child {
     width: 146px;
     height: 48px;
     text-align: left;
@@ -1508,30 +1500,27 @@ a {
     color: red;
   }
 
-  .nav-links>li a {
+  .nav-links li a:hover {
+    color: #ec5242;
+  }
+
+  .nav-links > li a {
     margin: 0;
     padding: 10px 12px;
     margin-left: 8px;
     color: #344563;
   }
 
-  .nav-links li a:hover {
-    color: #EC5242;
-  }
-
   .line-contact {
     height: 30px;
-    background-color: #272A31;
+    background-color: #272a31;
     display: flex;
   }
 
   .line-contact-ul {
     height: 72px;
-    padding: 15px 142px 15px 143px;
-    margin: 0;
     display: flex;
     justify-content: space-between;
-    height: 92px;
     align-items: center;
     padding: 4px 24px 4px 12px;
     margin: 0;
@@ -1553,12 +1542,10 @@ a {
     text-align: center;
     align-items: center;
     justify-content: center;
-    text-align: center;
   }
 
   .header-info-about h1 {
-    font-family: "Cocogoose", sans-serif;
-    color: #EC5242;
+    color: #ec5242;
     line-height: 35px;
     margin: 200px 0 0 0;
     position: absolute;
@@ -1600,7 +1587,6 @@ a {
   }
 
   .forum-info-about h1 {
-    font-family: "Cocogoose", sans-serif;
     line-height: 35px;
     position: absolute;
     font-weight: 500;
@@ -1616,7 +1602,7 @@ a {
     top: 0;
     width: 100%;
     height: 550px;
-    opacity: .2;
+    opacity: 0.2;
   }
 
   .container {
@@ -1626,7 +1612,7 @@ a {
     align-items: center;
     height: 500px;
     background-image: url("./images/header-bg-about-page.jpg");
-   }
+  }
 
   .container2 {
     justify-content: center;
@@ -1680,14 +1666,6 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
-
-  #past1 {
-    background-color: #ec5242;
-    opacity: 0.9;
-  }
-
-  #past2 {
     background-color: #ec5242;
     opacity: 0.9;
   }
@@ -1769,7 +1747,7 @@ a {
   #div1 h1 {
     font-weight: 600;
     font-size: 25px;
-    color: #EC5242;
+    color: #ec5242;
   }
 
   #div2 {
