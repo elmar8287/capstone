@@ -39,11 +39,9 @@ a {
   text-align: center;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .header-info-about h1 {
-  font-family: "Cocogoose", sans-serif;
   color: #ec5242;
   line-height: 28px;
   margin: 200px 0 0 0;
@@ -106,7 +104,6 @@ a {
 }
 
 .forum-info-about h1 {
-  font-family: "Cocogoose", sans-serif;
   line-height: 35px;
   position: absolute;
   font-weight: 500;
@@ -122,7 +119,7 @@ a {
   top: 0;
   width: 100%;
   height: 550px;
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .container {
@@ -173,7 +170,6 @@ a {
   padding: 0 20px 0 20px;
 }
 
-
 #pastInfo {
   display: flex;
   margin-top: 20px;
@@ -187,14 +183,6 @@ a {
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-
-#past1 {
-  background-color: #ec5242;
-  opacity: 0.9;
-}
-
-#past2 {
   background-color: #ec5242;
   opacity: 0.9;
 }
@@ -245,7 +233,6 @@ a {
 }
 
 #div3 {
-
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -279,7 +266,6 @@ a {
   word-spacing: 3px;
   letter-spacing: 0.4px;
   padding: 5px 15px 5px 15px;
-
 }
 
 #div22 {
@@ -295,7 +281,6 @@ a {
   word-spacing: 3px;
   letter-spacing: 0.4px;
   padding: 5px 15px 5px 15px;
-
 }
 
 #div32 {
@@ -311,7 +296,6 @@ a {
   word-spacing: 3px;
   letter-spacing: 0.4px;
   padding: 5px 15px 5px 15px;
-
 }
 
 .container2 img {
@@ -319,7 +303,6 @@ a {
   border-radius: 5px;
   border-color: rgb(151, 151, 151);
   padding: 5px 15px 5px 15px;
-
 }
 
 .nav-links {
@@ -358,7 +341,7 @@ a {
   animation: bounce 3s ease infinite;
 }
 
-.nav-btn>img {
+.nav-btn > img {
   width: 18px;
   height: 12px;
   color: #6070ff;
@@ -431,70 +414,7 @@ a {
   font-size: 60px;
 }
 
-/* Header */
-
-.nav-links {
-  display: none;
-}
-
-.line-contact-ul {
-  display: none;
-}
-
-.toolbar {
-  display: flex;
-  justify-content: space-between;
-  height: 92px;
-  align-items: center;
-  padding: 4px 24px 4px 12px;
-  margin: 0;
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-  background-color: rgb(255, 255, 255);
-}
-
-.logo {
-  color: #6070ff;
-  width: 100px;
-}
-
-.nav-btn {
-  font-weight: lighter;
-  border: none;
-  background-color: transparent;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  animation: bounce 3s ease infinite;
-}
-
-.nav-btn>img {
-  width: 18px;
-  height: 12px;
-  color: #6070ff;
-}
-
 /* The Close Button */
-#close {
-  display: flex;
-  align-self: center;
-  justify-self: center;
-  width: 12px;
-  height: 12px;
-  margin-top: -35px;
-  margin-right: 10px;
-  background-color: transparent;
-  font-size: 32px;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .header-info {
   display: block;
   height: 650px;
@@ -619,20 +539,6 @@ a {
   text-align: center;
   margin-top: 50px;
   text-decoration: underline;
-}
-
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 15;
-  top: 0;
-  left: 0;
-  background-color: #272a31;
-  overflow-x: hidden;
-  transition: 0.5s;
-  backdrop-filter: blur(10px);
-  opacity: 95%;
 }
 
 @media screen and (min-width: 992px) {
@@ -828,7 +734,7 @@ a {
     padding: 15px 142px 15px 143px;
     margin: 0;
   }
-  
+
   .headline {
     padding: 288px 260px 255px 260px;
     height: 846px;
@@ -1432,10 +1338,6 @@ a {
     display: flex;
     align-self: flex-start;
     margin-top: 0;
-  }
-
-  .nav-links li a:hover {
-    color: #ec5242;
   }
 
   .header-info-about {
