@@ -129,7 +129,6 @@ a {
   align-items: center;
   height: 500px;
   background-image: url("./images/header-bg-about-page.jpg");
-  ;
 }
 
 .container2 {
@@ -145,7 +144,6 @@ a {
 .container3 {
   justify-content: center;
   display: flex;
-
   flex-direction: column;
   align-items: center;
   height: 400px;
@@ -191,13 +189,11 @@ a {
 #past1 {
   background-color: #ec5242;
   opacity: 0.9;
-
 }
 
 #past2 {
   background-color: #ec5242;
   opacity: 0.9;
-
 }
 
 #past2 {
@@ -211,7 +207,6 @@ a {
   background-color: #ec5242;
   opacity: 0.9;
   margin-left: 5px;
-
 }
 
 #past1 h2 {
@@ -234,15 +229,11 @@ a {
   color: white;
 }
 
-
-
 #div1 {
-
   align-items: center;
   justify-content: center;
   text-align: center;
   width: auto;
-
 }
 
 #div11 {
@@ -251,7 +242,6 @@ a {
   justify-content: center;
   text-align: center;
   width: auto;
-
 }
 
 #div31 {
@@ -259,10 +249,7 @@ a {
   justify-content: center;
   text-align: center;
   width: auto;
-
 }
-
-
 
 #div3 {
 
@@ -271,7 +258,6 @@ a {
   text-align: center;
   width: auto;
   margin-top: 25px;
-
 }
 
 #div3 h5 {
@@ -284,8 +270,6 @@ a {
   font-size: 15px;
   text-decoration: underline;
 }
-
-
 
 #div1 h1 {
   font-weight: 600;
@@ -867,27 +851,6 @@ a {
   .nav-links li a:hover {
     color: #EC5242;
   }
-
-  /* Large size screens */
-
-  /* header {
-    height: 916px;
-    margin: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    border-bottom-left-radius: 80px;
-    background: url("./image/images-main/header-desk3.svg");
-    background-position-x: 34.6px;
-    background-position-y: 119px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    object-fit: cover;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    row-gap: 0;
-  } */
 
   .line-contact {
     height: 30px;
@@ -1557,27 +1520,6 @@ a {
     color: #EC5242;
   }
 
-  /* Large size screens */
-
-  /* header {
-        height: 916px;
-        margin: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        border-bottom-left-radius: 80px;
-        background: url("./image/images-main/header-desk3.svg");
-        background-position-x: 34.6px;
-        background-position-y: 119px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: scroll;
-        object-fit: cover;
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-        row-gap: 0;
-      } */
-
   .line-contact {
     height: 30px;
     background-color: #272A31;
@@ -1605,8 +1547,6 @@ a {
     padding: 15px 142px 15px 143px;
     margin: 0;
   }
-
-
 
   .header-info-about {
     display: flex;
@@ -1649,13 +1589,6 @@ a {
     font-family: "Lato", sans-serif;
   }
 
-  /* .p2-header-info {
-    margin: 370px 0 0 0;
-    width: 100%;
-    font-size: 15px;
-    font-family: "Lato", sans-serif;
-  } */
-
   .email-header-info {
     display: block;
     line-height: 25px;
@@ -1694,8 +1627,7 @@ a {
     align-items: center;
     height: 500px;
     background-image: url("./images/header-bg-about-page.jpg");
-    ;
-  }
+   }
 
   .container2 {
     justify-content: center;
@@ -1710,7 +1642,6 @@ a {
   .container3 {
     justify-content: center;
     display: flex;
-
     flex-direction: column;
     align-items: center;
     height: 400px;
@@ -1737,7 +1668,6 @@ a {
     padding: 0 20px 0 20px;
   }
 
-
   #pastInfo {
     display: flex;
     margin-top: 20px;
@@ -1756,13 +1686,11 @@ a {
   #past1 {
     background-color: #ec5242;
     opacity: 0.9;
-
   }
 
   #past2 {
     background-color: #ec5242;
     opacity: 0.9;
-
   }
 
   #past2 {
@@ -1776,7 +1704,6 @@ a {
     background-color: #ec5242;
     opacity: 0.9;
     margin-left: 5px;
-
   }
 
   #past1 h2 {
@@ -1799,15 +1726,11 @@ a {
     color: white;
   }
 
-
-
   #div1 {
-
     align-items: center;
     justify-content: center;
     text-align: center;
     width: auto;
-
   }
 
   #div11 {
@@ -1816,7 +1739,6 @@ a {
     justify-content: center;
     text-align: center;
     width: auto;
-
   }
 
   #div31 {
@@ -1824,19 +1746,14 @@ a {
     justify-content: center;
     text-align: center;
     width: auto;
-
   }
 
-
-
   #div3 {
-
     align-items: center;
     justify-content: center;
     text-align: center;
     width: auto;
     margin-top: 25px;
-
   }
 
   #div3 h5 {
@@ -1849,8 +1766,6 @@ a {
     font-size: 15px;
     text-decoration: underline;
   }
-
-
 
   #div1 h1 {
     font-weight: 600;
@@ -1873,7 +1788,6 @@ a {
     word-spacing: 3px;
     letter-spacing: 0.4px;
     padding: 5px 15px 5px 15px;
-
   }
 
   #div22 {
@@ -1889,7 +1803,6 @@ a {
     word-spacing: 3px;
     letter-spacing: 0.4px;
     padding: 5px 15px 5px 15px;
-
   }
 
   #div32 {
@@ -1905,7 +1818,6 @@ a {
     word-spacing: 3px;
     letter-spacing: 0.4px;
     padding: 5px 15px 5px 15px;
-
   }
 
   .container2 img {
@@ -1913,6 +1825,5 @@ a {
     border-radius: 5px;
     border-color: rgb(151, 151, 151);
     padding: 5px 15px 5px 15px;
-
   }
 }
