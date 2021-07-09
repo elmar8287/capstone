@@ -91,6 +91,23 @@ a {
   font-family: "Lato", sans-serif;
 }
 
+.underline {
+  width: 6%;
+  margin: 0 auto;
+  background-color: red;
+  height: 0.2rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+#wholeProgram {
+  background-color: #ec5242;
+  padding: 10px 20px 10px 20px;
+  width: 300px;
+  padding-bottom: 20px;
+  text-decoration: solid;
+}
+
 .email-header-info {
   display: block;
   line-height: 25px;
@@ -329,7 +346,7 @@ a {
 .toolbar1 {
   display: flex;
   justify-content: space-between;
-  height: 92px;
+  height: 70px;
   align-items: center;
   padding: 4px 24px 4px 12px;
   margin: 0;
@@ -499,13 +516,16 @@ a {
 .main-program {
   background-image: url("./images/bg-main-program.PNG");
   opacity: 10;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .main-program h3 {
   text-align: center;
   color: white;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .progam-disc {
@@ -548,17 +568,65 @@ a {
 }
 
 #wholeProgram {
+  display: none;
+}
+
+#programButton {
+  background-color: red;
+  padding: 20px 30px 20px 30px;
   color: rgb(233, 233, 233);
   text-align: center;
-  margin-top: 50px;
-  text-decoration: underline;
+  margin: 15px 0 15px 0;
+  width: 300px;
 }
 
 #compaign {
   display: none;
 }
 
+.speakers {
+  display: block;
+  background-color: white;
+  height: 80px;
+  text-align: center;
+}
+
+.speakers h2 {
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.divSpeaker {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.speakerInfo {
+  padding: 0 20px 20px 20px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speakerInfo img {
+  width: 100px;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.ddd h5 {
+  color: red;
+}
+
 @media screen and (min-width: 992px) {
+  #programButton {
+    display: none;
+  }
+
   .toolbar1 {
     height: 25px;
     position: fixed;
@@ -1544,7 +1612,7 @@ a {
 
   .partnersImage img {
     margin-left: 80px;
-  } 
+  }
 
   .partnersImage p {
     margin-left: 65px;
