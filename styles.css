@@ -593,7 +593,7 @@ a {
     font-weight: 500;
     line-height: 20px;
   }
-  
+
   .toolbar {
     height: 72px;
     padding: 15px 142px 15px 143px;
@@ -620,7 +620,6 @@ a {
     flex-direction: row;
     width: 100%;
     margin-left: 60px;
-    
   }
 
   .speakerInfo {
@@ -639,9 +638,7 @@ a {
 
   .ddd h5 {
     color: red;
-
   }
-
 
   #wholeProgram {
     color: rgb(233, 233, 233);
@@ -1535,7 +1532,7 @@ a {
     width: 100%;
   }
 
-  .partners h3{
+  .partners h3 {
     color: #d3d3d3;
     margin-top: -1rem;
     margin-bottom: 2rem;
@@ -1547,12 +1544,12 @@ a {
 
   .partnersImage img {
     margin-left: 80px;
-  }  
+  } 
 
   .partnersImage p {
     margin-left: 65px;
     color: #b3b3b3;
-  }  
+  }
 
   .partnerName p {
     display: flex;
@@ -1561,7 +1558,7 @@ a {
     justify-content: center;
     align-items: center;
   }
-  
+
   .underline {
     width: 6%;
     margin: 0 auto;
