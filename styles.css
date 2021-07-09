@@ -100,14 +100,6 @@ a {
   margin-bottom: 2rem;
 }
 
-#wholeProgram {
-  background-color: #ec5242;
-  padding: 10px 20px 10px 20px;
-  width: 300px;
-  padding-bottom: 20px;
-  text-decoration: solid;
-}
-
 .email-header-info {
   display: block;
   line-height: 25px;
@@ -173,18 +165,17 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100px;
-  background-color: rgb(3, 3, 3);
-  border-top: solid rgb(224, 224, 224);
+  height: 200px;
+  background-color: rgb(255, 255, 255);
 }
 
 .container4 p {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 15px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 40px 20px;
 }
 
 #pastInfo {
@@ -215,6 +206,11 @@ a {
   background-color: #ec5242;
   opacity: 0.9;
   margin-left: 5px;
+}
+
+.speakers h2 {
+  font-weight: 400;
+  margin-top: 50px;
 }
 
 #past1 h2 {
@@ -255,11 +251,6 @@ a {
   text-align: center;
   width: auto;
   margin-top: 25px;
-}
-
-#div3 h5 {
-  font-weight: 400;
-  font-size: 15px;
 }
 
 #div1 h1 {
@@ -572,12 +563,13 @@ a {
 }
 
 #programButton {
-  background-color: red;
+  background-color: #ec5242;
   padding: 20px 30px 20px 30px;
   color: rgb(233, 233, 233);
   text-align: center;
   margin: 15px 0 15px 0;
   width: 300px;
+  border: none;
 }
 
 #compaign {
@@ -589,11 +581,6 @@ a {
   background-color: white;
   height: 80px;
   text-align: center;
-}
-
-.speakers h2 {
-  font-weight: 400;
-  margin-top: 50px;
 }
 
 .divSpeaker {
@@ -620,6 +607,48 @@ a {
 
 .ddd h5 {
   color: red;
+}
+
+#div3 h5 {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1000px;
+  background-color: #272a31;
+  width: auto;
+}
+
+.partners h3 {
+  color: #d3d3d3;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.partnersImage {
+  display: flex;
+  flex-direction: column;
+}
+
+.partnersImage img {
+  margin-left: 20%;
+}
+
+.partnersImage p {
+  margin-left: 20%;
+  color: #b3b3b3;
+}
+
+.partnerName p {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -1608,6 +1637,7 @@ a {
 
   .partnersImage {
     display: flex;
+    flex-direction: row;
   }
 
   .partnersImage img {
