@@ -326,6 +326,19 @@ a {
   background-color: rgb(255, 255, 255);
 }
 
+.toolbar1 {
+  display: flex;
+  justify-content: space-between;
+  height: 92px;
+  align-items: center;
+  padding: 4px 24px 4px 12px;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  background-color: rgb(179, 77, 77);
+}
+
 .logo {
   color: #6070ff;
   width: 100px;
@@ -541,11 +554,99 @@ a {
   text-decoration: underline;
 }
 
+#compaign {
+  display: none;
+}
+
 @media screen and (min-width: 992px) {
+  .toolbar1 {
+    height: 25px;
+    position: fixed;
+    background-color: #272a31;
+    width: 100%;
+    color: white;
+    padding-left: 70%;
+  }
+
+  .nav-links1 {
+    display: flex;
+    width: 50px;
+    margin-right: 200px;
+    min-width: 259px;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+  }
+
+  .nav-links1 li {
+    padding-right: 20px;
+  }
+
+  .nav-links {
+    display: flex;
+    width: 40px;
+    margin-right: 200px;
+    min-width: 259px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  .toolbar {
+    height: 72px;
+    padding: 15px 142px 15px 143px;
+    margin: 25px 0 0 0;
+    width: 100%;
+  }
+
+  .speakers {
+    display: flex;
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .speakers h2 {
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  .divSpeaker {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 60px;
+    
+  }
+
+  .speakerInfo {
+    border: 0.7px solid rgb(212, 212, 212);
+    padding: 60px 80px 80px;
+    max-width: 640px;
+    display: flex;
+  }
+
+  .speakerInfo img {
+    margin: 20px 30px 0 0;
+    width: 200px;
+    object-fit: contain;
+    align-self: flex-start;
+  }
+
+  .ddd h5 {
+    color: red;
+
+  }
+
+
   #wholeProgram {
     color: rgb(233, 233, 233);
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     text-decoration: underline;
   }
 
@@ -636,7 +737,7 @@ a {
     display: block;
     left: 0;
     line-height: 50px;
-    margin: 300px 0 0 30px;
+    margin: 420px 0 0 30px;
     position: absolute;
     width: 100%;
     font-size: 20px;
@@ -684,19 +785,11 @@ a {
     display: none;
   }
 
-  .nav-links {
-    display: flex;
-    width: 40px;
-    margin-right: 200px;
-    min-width: 259px;
-    text-transform: capitalize;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-  }
-
   #compaign {
+    display: block;
     color: red;
+    border: solid red;
+    padding: 5px 5px 5px 5px;
   }
 
   .nav-links > li a {
@@ -717,22 +810,7 @@ a {
   }
 
   .line-contact-ul {
-    height: 72px;
-    padding: 15px 142px 15px 143px;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    z-index: 2;
-    background-color: black;
-  }
-
-  .toolbar {
-    height: 72px;
-    padding: 15px 142px 15px 143px;
-    margin: 0;
+    color: red;
   }
 
   .headline {
@@ -1441,15 +1519,60 @@ a {
   .container4 {
     justify-content: center;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .partners {
+    justify-content: center;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100px;
-    background-color: rgb(3, 3, 3);
-    border-top: solid rgb(224, 224, 224);
+    height: 300px;
+    background-color: #272a31;
+    width: 100%;
+  }
+
+  .partners h3{
+    color: #d3d3d3;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+  }
+
+  .partnersImage {
+    display: flex;
+  }
+
+  .partnersImage img {
+    margin-left: 80px;
+  }  
+
+  .partnersImage p {
+    margin-left: 65px;
+    color: #b3b3b3;
+  }  
+
+  .partnerName p {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .underline {
+    width: 6%;
+    margin: 0 auto;
+    background-color: red;
+    height: 0.2rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
   }
 
   .container4 p {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     justify-content: center;
     align-items: center;
