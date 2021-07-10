@@ -32,6 +32,11 @@ a {
 }
 
 /* End of General Rules */
+.partnersImage p {
+  margin-left: 20%;
+  color: #b3b3b3;
+}
+
 .partnersImage {
   display: flex;
   flex-direction: column;
@@ -196,7 +201,7 @@ a {
   flex-direction: column;
   align-items: center;
   height: 300px;
-  background-color:#272a31c5;
+  background-color: #272a31c5;
   color: white;
   padding: 0 20px 40px 20px;
   text-align: center;
@@ -667,11 +672,6 @@ a {
   margin-left: 20%;
 }
 
-.partnersImage p {
-  margin-left: 20%;
-  color: #b3b3b3;
-}
-
 @media screen and (min-width: 992px) {
   #programButton {
     display: none;
@@ -725,7 +725,6 @@ a {
     height: 80px;
     text-align: center;
     justify-content: center;
-    text-align: center;
   }
 
   .speakers h2 {
