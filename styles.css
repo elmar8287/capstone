@@ -32,6 +32,18 @@ a {
 }
 
 /* End of General Rules */
+.partnersImage {
+  display: flex;
+  flex-direction: column;
+}
+
+.partnerName p {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
 
 .header-info-about {
   display: flex;
@@ -651,11 +663,6 @@ a {
   margin-bottom: 1rem;
 }
 
-.partnersImage {
-  display: flex;
-  flex-direction: column;
-}
-
 .partnersImage img {
   margin-left: 20%;
 }
@@ -663,14 +670,6 @@ a {
 .partnersImage p {
   margin-left: 20%;
   color: #b3b3b3;
-}
-
-.partnerName p {
-  display: flex;
-  text-align: center;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -741,7 +740,6 @@ a {
     width: 100%;
     text-align: center;
     justify-content: center;
-    text-align: center;
     margin-bottom: 20px;
   }
 
@@ -1652,7 +1650,7 @@ a {
     flex-direction: row;
     align-items: center;
     height: 150px;
-    background-color:#272a31c5;
+    background-color: #272a31c5;
     color: white;
   }
 
