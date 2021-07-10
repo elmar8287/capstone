@@ -32,6 +32,10 @@ a {
 }
 
 /* End of General Rules */
+.speaker-info h2 {
+  font-size: 16px;
+}
+
 .partnersImage p {
   margin-left: 20%;
   color: #b3b3b3;
@@ -726,10 +730,6 @@ a {
   width: 65%;
 }
 
-.speaker-info h2 {
-  font-size: 16px;
-}
-
 .speaker-info h3 {
   color: #ec5242;
   text-align: center;
@@ -739,8 +739,17 @@ a {
   font-weight: bold;
 }
 
-
 @media screen and (min-width: 992px) {
+  .past-first-activity {
+    width: 80%;
+    min-height: 200px;
+    background: url(./images/workshop.PNG);
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+    margin: 5% 0;
+  }
+
   .feature-speaker:hover {
     transform: scale(1.1);
   }

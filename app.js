@@ -13,8 +13,7 @@ function closeNav() {
 closeNav();
 
 //Create dynamic section
-
-var data = {
+const data = {
   speakerDetails: [
     {
       id: 0,
@@ -68,9 +67,9 @@ var data = {
 };
 
 function implementSpeakers() {
-  var speakersWrap = document.querySelector('.feature_speakers ul');
+  const speakersWrap = document.querySelector('.feature_speakers ul');
   data.speakerDetails.forEach((speakerDetail) => {
-    var speakerCards = `
+    const speakerCards = `
   <li>
   <div class = 'feature-details${speakerDetail.id + 1} feature-speaker'>
   <div class = 'speaker-frame'>
