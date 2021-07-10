@@ -12,7 +12,6 @@ function closeNav() {
 
 closeNav();
 
-//Create dynamic section
 const data = {
   speakerDetails: [
     {
