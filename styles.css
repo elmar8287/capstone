@@ -78,7 +78,7 @@ a {
   border-width: 2px;
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 50%;
   transform: translate(-50%, -50%);
   line-height: 2px;
 }
@@ -681,7 +681,7 @@ a {
 .feature-container {
   text-align: center;
   margin: 2%;
-  padding: 5%;
+  padding: 2%;
 }
 
 .feature-speaker {
@@ -976,7 +976,7 @@ a {
     display: block;
     left: 0;
     line-height: 50px;
-    margin: 300px 0 0 0;
+    margin: 450px 0 0 0;
     position: absolute;
     width: 100%;
     font-size: 20px;
@@ -1649,7 +1649,7 @@ a {
 
   .header-info-about {
     display: flex;
-    height: 520px;
+    height: 550px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -1675,7 +1675,7 @@ a {
     border-width: 2px;
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 50%;
     transform: translate(-50%, -50%);
   }
 
@@ -1689,7 +1689,7 @@ a {
   .email-header-info {
     display: block;
     line-height: 25px;
-    margin: 380px 0 0 0;
+    margin: 500px 0 0 0;
     position: absolute;
     width: 100%;
     font-family: "Lato", sans-serif;
