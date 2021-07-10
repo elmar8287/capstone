@@ -34,3 +34,11 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+Original source [Cindy Shin in Behance](https://www.behance.net/adagio07). But, the project personalized for my  purposes.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
