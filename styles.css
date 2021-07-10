@@ -675,7 +675,13 @@ a {
 
 @media screen and (min-width: 992px) {
   #programButton {
-    display: none;
+  background-color: #ec5242;
+  padding: 20px 30px 20px 30px;
+  color: rgb(233, 233, 233);
+  text-align: center;
+  margin: 50px 0 15px 0;
+  width: 300px;
+  border: none;
   }
 
   .toolbar1 {
@@ -791,15 +797,19 @@ a {
     margin: 10px 10px 10px 10px;
     text-align: center;
     overflow: hidden;
+    height: 230px;
   }
 
   .progam-disc h3 {
     color: #ec5242;
     line-height: 3px;
+    padding-top: 0.1em;
+    padding-bottom: 10px;
   }
 
   .progam-disc p {
     color: #d3d3d3;
+    padding-bottom: 5px;
   }
 
   .header-info {
