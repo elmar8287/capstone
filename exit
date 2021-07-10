@@ -1,0 +1,233 @@
+[33mcommit ebd2fe4230743a63e777067a7475139dae6c4508[m[33m ([m[1;36mHEAD -> [m[1;32mday-3[m[33m, [m[1;31morigin/day-3[m[33m)[m
+Merge: 474d921 6b94261
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Thu Jul 8 18:58:25 2021 +0400
+
+    Merge pull request #3 from elmar8287/day-2
+    
+    Day-2
+
+[33mcommit 6b94261af15ffda44bda9a82bc4774d708ca28cd[m[33m ([m[1;31morigin/day-2[m[33m)[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Thu Jul 8 18:57:18 2021 +0400
+
+    Fix linter issues
+
+[33mcommit ec4a975ebb18b21227ed72ba34d77bb0cfe93622[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Thu Jul 8 18:54:48 2021 +0400
+
+    Fix linter issues
+
+[33mcommit 9a96f5268b348ead34e8c9750876e228ac9182fb[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Thu Jul 8 18:53:07 2021 +0400
+
+    Fix linter issues
+
+[33mcommit 9a6c7147adb2d96a174f8d768f17e6358d36fb8d[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Thu Jul 8 18:47:36 2021 +0400
+
+    Fix linter issues
+
+[33mcommit a865996767826a37c4b45e48ee76190bf89f8208[m
+Merge: c31c5f1 ab117f6
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Thu Jul 8 18:35:56 2021 +0400
+
+    Merge branch 'day-2' of https://github.com/elmar8287/capstone into day-2
+
+[33mcommit c31c5f18b5355496aa8ac0b7e08b5d9502a870b6[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Thu Jul 8 18:22:46 2021 +0400
+
+    Fix linter issues
+
+[33mcommit ab117f62d75089625ebbed73623f7c6ea0e9f07e[m
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Thu Jul 8 17:05:57 2021 +0400
+
+    Update linters.yml
+
+[33mcommit 4b2a5c7260e1a1c7f71159b53929135ad6847d23[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Thu Jul 8 16:34:14 2021 +0400
+
+    Fix linter issues
+
+[33mcommit 66ed9ca0f6ea58c52b1840c20af2d734225870d3[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Thu Jul 8 15:58:53 2021 +0400
+
+    Fix linter issues
+
+[33mcommit 82c01c38132e7b4d1d4f04bb690cad6bbfae311d[m
+Merge: 30985cd f9eb75a
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Thu Jul 8 15:52:45 2021 +0400
+
+    Merge branch 'day-2' of https://github.com/elmar8287/capstone into day-2
+
+[33mcommit 30985cd05776f27540023822dd1b2a37ef40d0d6[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Thu Jul 8 15:52:23 2021 +0400
+
+    Fix linter issues
+
+[33mcommit f9eb75ad528e7281963729fd67d4ebfba04928e5[m
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Thu Jul 8 15:45:54 2021 +0400
+
+    Update linters.yml
+
+[33mcommit e8a25270c3de405f41fc22c2bac3a9c61640e9e2[m
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Thu Jul 8 15:38:59 2021 +0400
+
+    Update linters.yml
+
+[33mcommit a8f5cfaa9184002a750b11b76c4d91d275c1b69e[m
+Merge: 1a10471 474d921
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Thu Jul 8 15:32:59 2021 +0400
+
+    Merge branch 'main' into day-2
+
+[33mcommit 1a104711c5f2314db611ec7a5332f8a5e60c5b23[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Thu Jul 8 15:28:09 2021 +0400
+
+    Create about page and fix all styling issues
+
+[33mcommit 474d92187b7833b065921f7ca994728598a6201a[m
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Wed Jul 7 21:44:47 2021 +0400
+
+    Update styles.css
+
+[33mcommit 520eca1ec9930f468b823d957ad35ee3c08d5347[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Tue Jul 6 17:08:41 2021 +0400
+
+    Create about page and adopt links
+
+[33mcommit a37f4dfa53f0e72a6024579b90789d38352878ac[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Tue Jul 6 15:37:58 2021 +0400
+
+    Day-2 first commit
+
+[33mcommit 9986d1452aa7ff97c069ca3c1960a97957488646[m
+Merge: c592d49 0d580d4
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Tue Jul 6 15:32:17 2021 +0400
+
+    Merge pull request #2 from elmar8287/day-1
+    
+    Day 1 Finish
+
+[33mcommit 0d580d4a7791159df317c710788318810c2d5a7b[m[33m ([m[1;31morigin/day-1[m[33m)[m
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Tue Jul 6 15:31:14 2021 +0400
+
+    Update README.md
+
+[33mcommit 27ddeca5862273b1bc47412f9dc6b5719a4ca584[m
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Tue Jul 6 15:30:17 2021 +0400
+
+    Update README.md
+
+[33mcommit fc276e0d5a3f2483aa7d6d5342b26526b3ed7760[m
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Tue Jul 6 15:29:41 2021 +0400
+
+    Update README.md
+
+[33mcommit d6db5b82c1d4e48d82af7439b1693e56c981d8f5[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Tue Jul 6 15:28:20 2021 +0400
+
+    Finish day1
+
+[33mcommit c592d49d80caa5e3fcb03591afb1ffc8179e476f[m
+Merge: ee9b8c4 06f32bb
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Tue Jul 6 15:24:08 2021 +0400
+
+    Merge pull request #1 from elmar8287/day-1
+    
+    Day 1
+
+[33mcommit 06f32bb008a0ed416f704b7b01c15272d2cc8079[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Tue Jul 6 13:39:32 2021 +0400
+
+    Style main program section
+
+[33mcommit 43e639bf5b5a4e6ba694dd94307cbd9f1a35e4fd[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Tue Jul 6 12:47:07 2021 +0400
+
+    Add main program section
+
+[33mcommit 47162bd474dc78f87430d017e4eacbd7d186a973[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Tue Jul 6 12:37:07 2021 +0400
+
+    Adobt backgound image
+
+[33mcommit d6f6ddb7cdd9551f8482379f4140982ede1ee4fd[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Tue Jul 6 10:33:24 2021 +0400
+
+    Fix linter issues
+
+[33mcommit 3d0f3f64389cccb3769af3c51f64e3814f6d0a05[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Tue Jul 6 10:27:29 2021 +0400
+
+    Fix linter issues
+
+[33mcommit 497a6d6cec94b8f9cc5562f6dce69ad923d2910b[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Tue Jul 6 10:17:24 2021 +0400
+
+    Adopt to desktop version
+
+[33mcommit 7da8207f41b39f14274bf759de22eccbeaa439f1[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Tue Jul 6 10:05:07 2021 +0400
+
+    Adopt to desktop version
+
+[33mcommit 2ca0df28e51e51af2a316db502a9aa9c1d3aa1f6[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Tue Jul 6 01:26:49 2021 +0400
+
+    Add styling to header section
+
+[33mcommit 5931448f400ed4d35de8c5771e6d68be7e75d50f[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Mon Jul 5 20:48:32 2021 +0400
+
+    Modify header section and give styling for it
+
+[33mcommit e9c6372fecdfdcdd5ff3cfbebd2daa31b91ca370[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Mon Jul 5 14:17:23 2021 +0400
+
+    Creation of sceletone of header section in HTML
+
+[33mcommit 81c60d1e613f0eb2e2322f3abc263a4b20768ff4[m
+Author: elmar8287 <L-mar@inbox.ru>
+Date:   Mon Jul 5 13:32:55 2021 +0400
+
+    Prepare the project with all necessery tools
+
+[33mcommit ee9b8c40229ddfcaf7659dd819dc5a5dce45970c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Elmar Abdulkarimov <49064106+elmar8287@users.noreply.github.com>
+Date:   Mon Jul 5 12:43:42 2021 +0400
+
+    Initial commit
