@@ -22,6 +22,8 @@
 ## Live demo
 You can visit live version via [link](https://elmar8287.github.io/capstone/)
 
+## Video
+Have a look to my video via [link](https://www.loom.com/share/f1150978a5834a388239b1fa17525b3d)
 
 ## 🤝 Contributing
 
