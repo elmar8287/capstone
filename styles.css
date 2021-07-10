@@ -498,7 +498,7 @@ a {
   margin: 180px 0 0 5px;
   position: absolute;
   width: 100%;
-  font-weight: 400;
+  font-weight: 200;
   font-family: "Lato", sans-serif;
 }
 
@@ -509,7 +509,7 @@ a {
   position: absolute;
   width: auto;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 1000;
   font-family: "Cocogoose", sans-serif;
 }
 
@@ -520,6 +520,7 @@ a {
   position: absolute;
   width: 100%;
   font-family: "Lato", sans-serif;
+  font-weight: 1000;
 }
 
 .header-topic-disc {
@@ -828,7 +829,7 @@ a {
     margin: 200px 0 0 30px;
     position: absolute;
     width: 100%;
-    font-weight: 800;
+    font-weight: 200;
     font-family: "Lato", sans-serif;
   }
 
@@ -840,6 +841,7 @@ a {
     width: auto;
     font-size: 30px;
     font-family: "Lato", sans-serif;
+    font-weight: 1000;
   }
 
   .h2-header-info {
@@ -849,6 +851,7 @@ a {
     position: absolute;
     width: 100%;
     font-family: "Lato", sans-serif;
+    font-weight: 1000;
   }
 
   .p2-header-info {
