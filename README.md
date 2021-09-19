@@ -3,7 +3,7 @@
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
 > The topic of project is Tech World.
-> Using AI in Medicine
+> Using AI in Medicine. Digitalization of Medicine. 
 
 ![Screen Shot](./screen-sht/mobile_version.PNG)
 
@@ -13,7 +13,7 @@
 - CSS
 - JS
 
-## Authors
+## Author
 
 👤 **Elmar Abdulkarimov**
 
@@ -37,7 +37,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Original source [Cindy Shin in Behance](https://www.behance.net/adagio07). But, the project personalized for my  purposes.
+Original design source [Cindy Shin in Behance](https://www.behance.net/adagio07). But, the project personalized for my  purposes.
 
 ## 📝 License
 
