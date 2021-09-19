@@ -18,7 +18,7 @@ const data = {
       id: 0,
       image: './images/lecture.png',
       title: 'Project Manager',
-      name: 'Elmar Abdulkarimov',
+      name: 'Speaker 1',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
     },
@@ -26,7 +26,7 @@ const data = {
       id: 1,
       image: './images/lecture.png',
       title: 'Finance Manager',
-      name: 'Matanat Rahimova',
+      name: 'Speaker 2',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
     },
@@ -34,7 +34,7 @@ const data = {
       id: 2,
       image: './images/lecture.png',
       title: 'CEO',
-      name: 'Alina Abdul',
+      name: 'Speaker 3',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
     },
@@ -42,7 +42,7 @@ const data = {
       id: 3,
       image: './images/lecture.png',
       title: 'Head of HR',
-      name: 'Maryam Kerimova',
+      name: 'Speaker 4',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
     },
@@ -50,7 +50,7 @@ const data = {
       id: 4,
       image: './images/lecture.png',
       title: 'IT Manager',
-      name: 'Zuzu Rehimli',
+      name: 'Speaker 5',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
     },
@@ -58,7 +58,7 @@ const data = {
       id: 5,
       image: './images/lecture.png',
       title: 'Technical Director',
-      name: 'Veli Veliyev',
+      name: 'Speaker 6',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
     },
