@@ -1,9 +1,9 @@
-# Capstone project. Tech world
+# AI in Medicine
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
 > The topic of project is Tech World.
-> Using AI in Medicine. Digitalization of Medicine. 
+> Capstone project. Tech world. Digitalization of Medicine. 
 
 ![Screen Shot](./screen-sht/mobile_version.PNG)
 
